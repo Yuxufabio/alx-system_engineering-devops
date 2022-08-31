@@ -1,1 +1,1 @@
-This are some shell basics
+These are some shell basics
