@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | awk -F'/' '{print $NF}'
+ls -laR | awk '{if ($5 != 0) print $9}'
