@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | awk -F'/' '{print $NF}i'
+find . -empty -printf '%f\n'
